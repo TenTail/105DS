@@ -1,0 +1,57 @@
+.container {
+    width: 70em;
+}
+.page-header > h1 {
+    font-size: 4em;
+}
+
+/* navbar */
+.navbar {
+    border-bottom: 1px solid #000;
+    border-radius: 0px;
+}
+
+/* 最新消息 */
+.news {
+    /*border-bottom: 1px solid #000;*/
+    text-align: center;
+}
+    .new {
+        /*font-size: 1.5em;*/
+        font-weight: bolder;
+        color: #F90;
+        text-shadow: 1.5px 1.5px 1px #F00, 
+                     1.5px -1.5px 1px #F00, 
+                     -1.5px 1.5px 1px #F00, 
+                     -1.5px -1.5px 1px #F00;
+    }
+    .news p {
+        font-size: 1.5em;
+    }
+
+/* 課程進度 */
+.schedule {
+    /*border-bottom: 1px solid #000;*/
+}
+    .schedule > .page-header > h1 {
+        text-align: center;
+    }
+    .schedule ul {
+        padding-left: 0;
+    }
+    .schedule li {
+        display: block;
+    }
+    .schedule li > h3 {
+        border-bottom: 1px solid #eee;
+    }
+    .schedule li > p { 
+        padding-left: 1.5em;
+    }
+    .schedule li > p > a {
+        padding-right: 1.5em;
+    }
+
+.footer {
+    margin-top: 5em;
+}

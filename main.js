@@ -38,7 +38,7 @@ var main = new Vue({
                     name: '', href: '#'
                   }],
                   homework: [{
-                    name: '', href: '#'
+                    name: '簡單迴圈、陣列測驗', href: './ppt/105DS_EasyTest.pdf'
                   }]
                 },
                 { w: '第三週', content: '', 

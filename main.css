@@ -10,7 +10,9 @@
     border-bottom: 1px solid #000;
     border-radius: 0px;
 }
-
+    .nav a {
+        font-size: 1.5em;
+    }
 /* 最新消息 */
 .news {
     /*border-bottom: 1px solid #000;*/
@@ -46,10 +48,11 @@
         border-bottom: 1px solid #eee;
     }
     .schedule li > p { 
+        font-size: 1.5em;
         padding-left: 1.5em;
     }
     .schedule li > p > a {
-        padding-right: 1.5em;
+        margin-right: 1.5em;
     }
 
 .footer {

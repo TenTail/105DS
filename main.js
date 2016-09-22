@@ -35,10 +35,12 @@ var main = new Vue({
                     name: 'Coding Style', href: './ppt/105DS_class1_coding_style/'
                   }], 
                   demo: [{
-                    name: '', href: '#'
+                    name: 'demo', href: './demo/demo1.zip'
                   }],
                   homework: [{
                     name: '簡單迴圈、陣列測驗', href: './ppt/105DS_EasyTest.pdf'
+                  }, {
+                    name: '作業', href: './ppt/105DS_Homework1.pdf'
                   }]
                 },
                 { w: '第三週', content: '', 

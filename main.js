@@ -33,6 +33,8 @@ var main = new Vue({
                 { w: '第二週', content: '', 
                   ppt: [{
                     name: 'Coding Style', href: './ppt/105DS_class1_coding_style/'
+                  }, {
+                    name: '第二週上課', href: './ppt/20160922/'
                   }], 
                   demo: [{
                     name: 'demo', href: './demo/demo1.zip'

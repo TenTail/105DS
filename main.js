@@ -8,12 +8,12 @@ var main = new Vue({
     data: {
         title: '105資料結構TA課',
         navItems: [
+            { name: 'Online Judge', href: 'http://maselab318.ddns.net:20001/OJ/' },
             { name: '出席狀況', href: '#' }, 
             { name: '作業成績', href: '#' }
         ],
         news: [
-            { isNew: true, content: 'TA課地點601，上課時間 19:00 ~ 21:00'},
-            { isNew: true, content: '因老師出國，所以九月份由TA代課，十月份老師會在TA課時補課。'},
+            { isNew: false, content: '因老師出國，所以九月份由TA代課，十月份老師會在TA課時補課。'},
         ],
         schedule1: {
             title: '期中考前',
@@ -34,7 +34,7 @@ var main = new Vue({
                   ppt: [{
                     name: 'Coding Style', href: './ppt/105DS_class1_coding_style/'
                   }, {
-                    name: '第二週上課', href: './ppt/20160922/'
+                    name: '迴圈與陣列', href: './ppt/20160922/'
                   }], 
                   demo: [{
                     name: 'demo', href: './demo/demo1.zip'
@@ -47,7 +47,7 @@ var main = new Vue({
                 },
                 { w: '第三週', content: '', 
                   ppt: [{
-                    name: '', href: ''
+                    name: '堆疊與佇列', href: './ppt/105DS_Stack_and_Queue.pdf'
                   }], 
                   demo: [{
                     name: '', href: '#'

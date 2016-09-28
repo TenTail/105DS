@@ -70,8 +70,10 @@
                     <li v-for="s1 in schedule1.weeks">
                         <h3>{{ s1.w }}</h3>
                         <p v-if="s1.content">{{ s1.content }}</p>
-                        <p><a href="{{ ppt.href }}" v-for="ppt in s1.ppt" v-if="ppt.name">{{ ppt.name }}</a></p>
-                        <p><a href="{{ demo.href }}" v-for="demo in s1.demo" v-if="demo.name">{{ demo.name }}</a></p>
+                        <p v-for="ppt in s1.ppt">
+                            <a href="{{ ppt.href }}" v-if="ppt.name">{{ ppt.name }}</a>
+                            <a href="{{ ppt.demo }}" v-if="ppt.demo">{{ ppt.name }}demo</a>
+                        </p>
                         <p><a href="{{ homework.href }}" v-for="homework in s1.homework" v-if="homework.name">{{ homework.name }}</a></p>
                     </li>
                 </ul>
@@ -90,8 +92,10 @@
                     <li v-for="s2 in schedule2.weeks">
                         <h3>{{ s2.w }}</h3>
                         <p v-if="s2.content">{{ s2.content }}</p>
-                        <a href="{{ ppt.href }}" v-for="ppt in s2.ppt" v-if="ppt.name">{{ ppt.name }}</a>
-                        <a href="{{ demo.href }}" v-for="demo in s2.demo" v-if="demo.name">{{ demo.name }}</a>
+                        <p v-for="ppt in sp.ppt">
+                            <a href="{{ ppt.href }}" v-if="ppt.name">{{ ppt.name }}</a>
+                            <a href="{{ ppt.demo }}" v-if="ppt.demo">{{ ppt.name }}demo</a>
+                        </p>
                         <a href="{{ homework.href }}" v-for="homework in s2.homework" v-if="homework.name">{{ homework.name }}</a>
                     </li>
                 </ul>

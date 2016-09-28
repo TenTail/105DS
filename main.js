@@ -21,10 +21,7 @@ var main = new Vue({
             weeks: [
                 { w: '第一週', content: '開心中秋節', 
                   ppt: [{
-                    name: 'TA課程簡介', href: './ppt/%E7%AC%AC%E4%B8%80%E9%80%B1%E8%AA%B2%E5%A0%82%E7%B0%A1%E4%BB%8B'
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: 'TA課程簡介', href: './ppt/%E7%AC%AC%E4%B8%80%E9%80%B1%E8%AA%B2%E5%A0%82%E7%B0%A1%E4%BB%8B', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -32,12 +29,9 @@ var main = new Vue({
                 },
                 { w: '第二週', content: '', 
                   ppt: [{
-                    name: 'Coding Style', href: './ppt/105DS_class1_coding_style/'
+                    name: 'Coding Style', href: './ppt/105DS_class1_coding_style/', demo: ''
                   }, {
-                    name: '迴圈與陣列', href: './ppt/20160922/'
-                  }], 
-                  demo: [{
-                    name: 'demo', href: './demo/demo1.zip'
+                    name: '迴圈與陣列', href: './ppt/20160922/', demo: './demo/demo1.zip'
                   }],
                   homework: [{
                     name: '簡單迴圈、陣列測驗', href: './ppt/105DS_EasyTest.pdf'
@@ -47,10 +41,11 @@ var main = new Vue({
                 },
                 { w: '第三週', content: '', 
                   ppt: [{
-                    name: '堆疊與佇列', href: './ppt/105DS_Stack_and_Queue.pdf'
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '堆疊與佇列', href: './ppt/105DS_Stack_and_Queue.pdf', demo: ''
+                  }, {
+                    name: '位址與指標', href: './ppt/105DS_Pointer_Address.pdf', demo: ''
+                  }, {
+                    name: '類別x樣板x結構', href: './ppt/105DS_Class_Template_Struct.pdf', demo: './demo/demo2.zip'
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -58,10 +53,7 @@ var main = new Vue({
                 },
                 { w: '第四週', content: '老師補課', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -69,10 +61,7 @@ var main = new Vue({
                 },
                 { w: '第五週', content: '老師補課', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -80,10 +69,7 @@ var main = new Vue({
                 },
                 { w: '第六週', content: '', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -91,10 +77,7 @@ var main = new Vue({
                 },
                 { w: '第七週', content: '', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -102,10 +85,7 @@ var main = new Vue({
                 },
                 { w: '第八週', content: '', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -113,10 +93,7 @@ var main = new Vue({
                 },
                 { w: '第九週', content: '期中考', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -130,10 +107,7 @@ var main = new Vue({
             weeks: [
                 { w: '第十週', content: '', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -141,10 +115,7 @@ var main = new Vue({
                 },
                 { w: '第十一週', content: '', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -152,10 +123,7 @@ var main = new Vue({
                 },
                 { w: '第十二週', content: '', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -163,10 +131,7 @@ var main = new Vue({
                 },
                 { w: '第十三週', content: '', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -174,10 +139,7 @@ var main = new Vue({
                 },
                 { w: '第十四週', content: '', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -185,10 +147,7 @@ var main = new Vue({
                 },
                 { w: '第十五週', content: '', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -196,10 +155,7 @@ var main = new Vue({
                 },
                 { w: '第十六週', content: '', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -207,10 +163,7 @@ var main = new Vue({
                 },
                 { w: '第十七週', content: '', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'
@@ -218,10 +171,7 @@ var main = new Vue({
                 },
                 { w: '第十八週', content: '期末考', 
                   ppt: [{
-                    name: '', href: ''
-                  }], 
-                  demo: [{
-                    name: '', href: '#'
+                    name: '', href: '', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'

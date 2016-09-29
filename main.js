@@ -48,7 +48,7 @@ var main = new Vue({
                     name: '類別x樣板x結構', href: './ppt/105DS_Class_Template_Struct.pdf', demo: './demo/demo2.zip'
                   }],
                   homework: [{
-                    name: '', href: '#'
+                    name: '作業：超級堆疊', href: './ppt/105DS_Homework2.pdf'
                   }]
                 },
                 { w: '第四週', content: '老師補課', 

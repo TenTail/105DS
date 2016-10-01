@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Custom style -->
     <link rel="stylesheet" href="./main.css">
+
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.js"></script> -->
+
 </head>
 <body>
-
-    <div class="container">
+    <div class="container" id="vue_body">
         <div class="navbar">
             <nav>
                 <ul class="nav nav-pills pull-right">
                     <li role="presentation" v-for="navItem in navItems">
-                        <a href="{{ navItem.href }}">{{ navItem.name }}</a>
+                        <a :href="navItem.href">{{ navItem.name }}</a>
                     </li>
                 </ul>
                 <div>
@@ -31,10 +33,10 @@
                 <h1>TA課公告</h1>
             </div>
             <ul>
-                <li v-for="new in news" style="display: block;">
+                <li v-for="n in TAnews" style="display: block;">
                     <p>
-                        <span class="new" v-show="new.isNew">NEWS!!</span>
-                        {{ new.content }}
+                        <span class="new" v-if="n.isNew">NEWS!!</span>
+                        {{ n.content }}
                     </p>
                 </li>
                 <li style="display: block;">
@@ -49,7 +51,7 @@
                 </li>
             </ul>
         </div>
-        
+    
         <!-- 每週進度 -->
         <div class="schedule">
             <div class="page-header">
@@ -71,10 +73,10 @@
                         <h3>{{ s1.w }}</h3>
                         <p v-if="s1.content">{{ s1.content }}</p>
                         <p v-for="ppt in s1.ppt">
-                            <a href="{{ ppt.href }}" v-if="ppt.name">{{ ppt.name }}</a>
-                            <a href="{{ ppt.demo }}" v-if="ppt.demo">{{ ppt.name }}demo</a>
+                            <a :href="ppt.href" v-if="ppt.name">{{ ppt.name }}</a>
+                            <a :href="ppt.demo" v-if="ppt.demo">{{ ppt.name }}demo</a>
                         </p>
-                        <p><a href="{{ homework.href }}" v-for="homework in s1.homework" v-if="homework.name">{{ homework.name }}</a></p>
+                        <p><a :href="homework.href" v-for="homework in s1.homework" v-if="homework.name">{{ homework.name }}</a></p>
                     </li>
                 </ul>
             </div>
@@ -92,11 +94,11 @@
                     <li v-for="s2 in schedule2.weeks">
                         <h3>{{ s2.w }}</h3>
                         <p v-if="s2.content">{{ s2.content }}</p>
-                        <p v-for="ppt in sp.ppt">
-                            <a href="{{ ppt.href }}" v-if="ppt.name">{{ ppt.name }}</a>
-                            <a href="{{ ppt.demo }}" v-if="ppt.demo">{{ ppt.name }}demo</a>
+                        <p v-for="ppt in s2.ppt">
+                            <a :href="ppt.href" v-if="ppt.name">{{ ppt.name }}</a>
+                            <a :href="ppt.demo" v-if="ppt.demo">{{ ppt.name }}demo</a>
                         </p>
-                        <a href="{{ homework.href }}" v-for="homework in s2.homework" v-if="homework.name">{{ homework.name }}</a>
+                        <a :href="homework.href" v-for="homework in s2.homework" v-if="homework.name">{{ homework.name }}</a>
                     </li>
                 </ul>
             </div>
@@ -110,7 +112,7 @@
     </div>
 
     <script src="http://vuejs.org/js/vue.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/vue.resource/1.0.2/vue-resource.min.js"></script>
+    <script src="./node_modules/vue/dist/vue.min.js"></script>
     <script src="./main.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@ var midDayOfSchool = new Date('2016-11-14');
 var finalDayOfSchool = new Date('2017-1-15');
 
 var main = new Vue({
-    el: 'body',
+    el: '#vue_body',
     data: {
         title: '105資料結構TA課',
         navItems: [
@@ -12,7 +12,7 @@ var main = new Vue({
             { name: '出席狀況', href: '#' }, 
             { name: '作業成績', href: '#' }
         ],
-        news: [
+        TAnews: [
             { isNew: false, content: '因老師出國，所以九月份由TA代課，十月份老師會在TA課時補課。'},
         ],
         schedule1: {

@@ -61,7 +61,7 @@ var main = new Vue({
                 },
                 { w: '第五週', content: '老師補課', 
                   ppt: [{
-                    name: 'C++效能分析', href: 'ppt/105DS_Measuring/', demo: ''
+                    name: 'C++效能量測', href: 'ppt/105DS_Measuring/', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'

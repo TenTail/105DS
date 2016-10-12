@@ -61,10 +61,12 @@ var main = new Vue({
                 },
                 { w: '第五週', content: '老師補課', 
                   ppt: [{
+                    name: '迴圈與遞迴', href: 'ppt/105DS_Loop_Recursion.pdf', demo: ''
+                  },{
                     name: 'C++效能量測', href: 'ppt/105DS_Measuring/', demo: ''
                   }],
                   homework: [{
-                    name: '', href: '#'
+                    name: '作業', href: 'ppt/105DS_Homework3.pdf'
                   }]
                 },
                 { w: '第六週', content: '', 

@@ -71,7 +71,7 @@ var main = new Vue({
                 },
                 { w: '第六週', content: '', 
                   ppt: [{
-                    name: '', href: '', demo: ''
+                    name: '運算子多載', href: 'ppt/105DS_operator_overloading.pdf', demo: 'demo/operator_overloading.cpp'
                   }],
                   homework: [{
                     name: '', href: '#'

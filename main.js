@@ -112,7 +112,7 @@ var main = new Vue({
                     name: '', href: '', demo: ''
                   }],
                   homework: [{
-                    name: '', href: '#'
+                    name: '作業：字串處理', href: 'ppt/105DS_Homework5.pdf'
                   }]
                 },
                 { w: '第十一週', content: '', 

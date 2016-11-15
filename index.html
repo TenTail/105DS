@@ -98,7 +98,7 @@
                             <a :href="ppt.href" v-if="ppt.name">{{ ppt.name }}</a>
                             <a :href="ppt.demo" v-if="ppt.demo">{{ ppt.name }}demo</a>
                         </p>
-                        <a :href="homework.href" v-for="homework in s2.homework" v-if="homework.name">{{ homework.name }}</a>
+                        <p><a :href="homework.href" v-for="homework in s2.homework" v-if="homework.name">{{ homework.name }}</a></p>
                     </li>
                 </ul>
             </div>

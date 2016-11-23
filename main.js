@@ -117,7 +117,7 @@ var main = new Vue({
                 },
                 { w: '第十一週', content: '', 
                   ppt: [{
-                    name: '', href: '', demo: ''
+                    name: '鏈結串列', href: 'ppt/105DS_LinkedLists.pdf', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'

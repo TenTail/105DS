@@ -125,7 +125,7 @@ var main = new Vue({
                 },
                 { w: '第十二週', content: '', 
                   ppt: [{
-                    name: '', href: '', demo: ''
+                    name: '雙向鏈結串列', href: 'ppt/105DS_LinkedLists2.pdf', demo: ''
                   }],
                   homework: [{
                     name: '', href: '#'

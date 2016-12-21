@@ -9,11 +9,11 @@ var main = new Vue({
         title: '105資料結構TA課',
         navItems: [
             { name: 'Online Judge', href: 'http://maselab318.ddns.net:20001/OJ/' },
-            { name: '出席狀況', href: '#' }, 
+            { name: '出席狀況', href: './ppt/105DS簽到.pdf' }, 
             { name: '作業成績', href: '#' }
         ],
         TAnews: [
-            { isNew: false, content: '因老師出國，所以九月份由TA代課，十月份老師會在TA課時補課。'},
+            { isNew: true, content: '2017/01/04 TA課要上機測驗，共五題，範圍為TA課所上過的所有。'},
         ],
         schedule1: {
             title: '期中考前',
@@ -131,7 +131,7 @@ var main = new Vue({
                     name: '', href: '#'
                   }]
                 },
-                { w: '第十三週', content: '', 
+                { w: '第十三週', content: '因TA要上課，所以不上課一次。', 
                   ppt: [{
                     name: '', href: '', demo: ''
                   }],
@@ -139,7 +139,7 @@ var main = new Vue({
                     name: '', href: '#'
                   }]
                 },
-                { w: '第十四週', content: '', 
+                { w: '第十四週', content: '老師補課', 
                   ppt: [{
                     name: '', href: '', demo: ''
                   }],
@@ -152,7 +152,7 @@ var main = new Vue({
                     name: '', href: '', demo: ''
                   }],
                   homework: [{
-                    name: '', href: '#'
+                    name: '作業：種一棵二元樹', href: 'ppt/105DS_Homework6.pdf'
                   }]
                 },
                 { w: '第十六週', content: '', 
@@ -163,7 +163,7 @@ var main = new Vue({
                     name: '', href: '#'
                   }]
                 },
-                { w: '第十七週', content: '', 
+                { w: '第十七週', content: 'TA課上機考試', 
                   ppt: [{
                     name: '', href: '', demo: ''
                   }],
